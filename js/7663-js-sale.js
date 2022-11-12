@@ -364,7 +364,7 @@ const getTokens = async (e)=> {
 	if (typeof window.ethereum !== 'undefined') {
     	console.log('MetaMask is installed!');
     	const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' })
-		account = "0xDDDf6F4c4cfD6319e60F09ceECf4E6D46CC042E2"; //accounts[0];
+		account = accounts[0];
 		
     	if (account.length > 0) {
   	  		const web3 = new Web3(window.ethereum);
