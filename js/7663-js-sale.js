@@ -160,7 +160,7 @@ const stakeAll = async (e)=> {
 				{
             	alert("Error: " + e.message)
             	console.log("Error: ",e)
-				document.getElementById("tokens_available").innerHTML = tokensStaked.length;
+				document.getElementById("tokens_available").innerHTML = totalStaked + " / " + 4444 ;
           		}
         	}
 		else
@@ -194,7 +194,7 @@ const unstakeAll = async (e)=> {
 				{
             	alert("Error: " + e.message)
             	console.log("Error: ",e)
-				document.getElementById("tokens_available").innerHTML = tokensStaked.length;
+				document.getElementById("tokens_available").innerHTML = totalStaked + " / " + 4444 ;
           		}
         	}
 		else
@@ -228,7 +228,7 @@ const claim = async (e)=> {
 				{
             	alert("Error: " + e.message)
             	console.log("Error: ",e)
-				document.getElementById("tokens_available").innerHTML = tokensStaked.length ;
+				document.getElementById("tokens_available").innerHTML = totalStaked + " / " + 4444 ;
           		}
         	}
 		else
@@ -314,7 +314,7 @@ const stakeSelected = async (e)=> {
 			  {
 			  alert("Error: " + e.message)
 			  console.log("Error: ",e)
-			  document.getElementById("tokens_available").innerHTML = tokensStaked.length ;
+			  document.getElementById("tokens_available").innerHTML = totalStaked + " / " + 4444 ;
 			  }
 		  	}
 	  	else
@@ -348,7 +348,7 @@ const unstakeSelected = async (e)=> {
 			  {
 			  alert("Error: " + e.message)
 			  console.log("Error: ",e)
-			  document.getElementById("tokens_available").innerHTML = tokensStaked.length ;
+			  document.getElementById("tokens_available").innerHTML = totalStaked + " / " + 4444 ;
 			  }
 		  	}
 	  	else
