@@ -500,4 +500,4 @@ document.getElementById('unstakeSelected').onclick = unstakeSelected;
 document.getElementById('claim').onclick = claim;
 document.getElementById('approve').onclick = approve;
 
-connect();
+//connect();
